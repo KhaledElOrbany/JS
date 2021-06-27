@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#removeImgDiv {
+    /* display: none; */
+    visibility: hidden;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.dropArea {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 2px dashed purple;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropArea:hover {
+    cursor: pointer;
+}
+
+.dropArea.over {
+    background-color: aliceblue;
+    border: 2px solid purple;
+}
+
+.dropArea img {
+    width: 100%;
+    height: 100%;
+}
