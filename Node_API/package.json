@@ -1,0 +1,19 @@
+{
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": "A RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "el3ornb\u001b[\u001b[3~\u001b[C\u001bb",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
