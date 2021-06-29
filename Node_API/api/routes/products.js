@@ -15,8 +15,13 @@ router.get('/:productId', (req, resp, next) => {
 });
 
 router.post('/', (req, resp, next) => {
+    const product = {
+        name: req.body.name,
+        price: req.body.price
+    };
     resp.status(201).json({
-        msg: 'Handling POST requests to /products'
+        msg: 'Handling POST requests to /products',
+        product: product
     });
 });
 
